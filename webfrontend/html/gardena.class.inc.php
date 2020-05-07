@@ -19,9 +19,9 @@ class gardena
     var $CMD_MOWER_PARK_UNTIL_NEXT_TIMER = array("name" => "park_until_next_timer");
     var $CMD_MOWER_PARK_UNTIL_FURTHER_NOTICE = array("name" => "park_until_further_notice");
     var $CMD_MOWER_START_RESUME_SCHEDULE = array("name" => "start_resume_schedule");
-    var $CMD_MOWER_START_06HOURS = array("name" => "start_override_timer", "parameters" => array("duration" => 360));
-    var $CMD_MOWER_START_24HOURS = array("name" => "start_override_timer", "parameters" => array("duration" => 1440));
-    var $CMD_MOWER_START_3DAYS = array("name" => "start_override_timer", "parameters" => array("duration" => 4320));
+    var $CMD_MOWER_START_06HOURS = array("name" => "start_override_timer", "parameters" => array("duration" => 21600));
+    var $CMD_MOWER_START_24HOURS = array("name" => "start_override_timer", "parameters" => array("duration" => 86400));
+    var $CMD_MOWER_START_3DAYS = array("name" => "start_override_timer", "parameters" => array("duration" => 259200));
     
     var $CMD_SENSOR_REFRESH_TEMPERATURE = array("name" => "measure_ambient_temperature");
     var $CMD_SENSOR_REFRESH_LIGHT = array("name" => "measure_light");
