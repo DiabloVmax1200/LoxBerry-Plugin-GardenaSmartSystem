@@ -139,7 +139,7 @@ foreach($gardena -> devices as $locationId => $devices)
 		}
 		else if ($_GET["action"] === "RESUME_SCHEDUL")
 		{
-			$gardena -> sendCommand($mower, $gardena -> CMD_MOWER_RESUME_SCHEDUL);
+			$gardena -> sendCommand($mower, $gardena -> CMD_MOWER_START_RESUME_SCHEDULE);
 		}
 		else if ($_GET["action"] === "START")
 		{		
